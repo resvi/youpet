@@ -1,0 +1,25 @@
+#sectionResults{
+    background-image: url(../../assets/multimedia/jpg/medico-tiro-medio-que-controla-respiracion-perro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50em;
+    position: relative;
+}
+#sectionResults::after{
+    content: '';
+    min-height: 50em;
+    width: 100%;
+    background: rgba(254, 196, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.contenResults{
+    z-index: 100;
+    position: absolute;
+    left: 5%;
+    /* top: 50%; */
+    margin: 4em;
+    color: #FFF;
+}

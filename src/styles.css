@@ -1,1 +1,78 @@
-/* You can add global styles to this file, and also import other style files */
+main{
+    font-size: 10px;
+}
+.btn{
+    font-weight: 600;
+}
+.color-texto-header{
+    color: #fff;
+}
+.title{
+    font-size: 6em;
+}
+.img-banner img{
+    width: 90%;
+}
+.videoInfo {
+    width: 30em;
+    height: 30em;
+    background: #000;
+    overflow: hidden;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+.videoInfo::after{
+    content:'';
+    width: 30em;
+    height: 30em;
+    z-index: 1;
+    position: absolute;
+    background: rgba(254,196,0,.3);
+    background-image: url(../src/assets/multimedia/png/icono-reporducir.png);
+    background-size: 20%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    top: 0%;
+    /* left: 5%; */
+    cursor: pointer;
+} 
+.videoInfo::before{
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: rgba(254, 196, 0, 255);
+    position: absolute;
+    left: 2.4em;
+    bottom: -2em;
+}
+.videoInfo video{
+    position: relative;
+    z-index: 1;
+    left: -57%;
+    width: 200%;   
+}
+.row-section{
+    min-height: 100vh;
+    vertical-align: middle;
+    align-items: center;
+}
+.imgService{
+    width: 20em;
+    height: 20em;
+    margin: auto;
+    border: 2px solid #FFF;
+    overflow: hidden;
+}
+.imgService img{
+    position: relative;
+    width: fit-content;
+    min-width: 20em;
+    height: 100%;
+
+}
+@media only screen and (max-width: 600px) {
+    .title{
+    font-size: 4em;
+        
+    }
+  }

@@ -1,0 +1,22 @@
+nav{
+    background: rgba(254, 160, 1, 0.9);
+}
+a.logo {
+    position: relative;
+    text-align: center;
+}
+
+.logo img{
+    width: 3em;
+    align-items: center;
+    justify-content: center; 
+}
+.logo h2{
+    font-size: 1.7em;
+    font-weight: 700;
+    text-transform: uppercase ;
+    line-height: .4em;
+}
+.logo span{
+    font-size: .6em;
+}
