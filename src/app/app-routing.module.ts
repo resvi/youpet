@@ -4,7 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { SectionServicesComponent } from './section-services/section-services.component';
 import { SetionServiceComponent } from './setion-service/setion-service.component';
+<<<<<<< HEAD
 
+=======
+>>>>>>> d799fc3b039ffad95d049bcf54160738f48f3a2b
 
 const routes: Routes = [
   {
